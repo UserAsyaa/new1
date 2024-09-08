@@ -1,0 +1,165 @@
+.left-aside{
+    position: absolute;
+    transform: translate(-320px);
+    padding:20px;
+    min-height: 100%;
+    background-color:$background-white;
+    z-index: 2;
+        @media(min-width:$screen-desktop){
+            position: relative;
+            transform: translate(0);
+            transition: all 0.5s ease-in;
+            min-height: 100%;
+        }
+        
+
+    &__header{
+        display: flex;
+        align-items: center;
+    }
+
+    &__button-logo{
+        display: flex;
+        align-items: center;
+    }
+
+    &__burger-button{
+        background-image: url(/block7/src/img/icon.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-right: 20px;
+
+        @media(min-width: $screen-mobile) {
+            display: block;
+        }
+    }
+
+    &__search-button{
+        background-image: url(/block7/src/img/search.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    &__logo-img{
+        margin-right: 75px;
+        width:97px;
+        height: 51px;
+    }
+
+    &__nav{
+        margin-top:50px;
+    }
+
+    &__nav ul{
+        list-style: none;
+    }
+    
+
+    &__nav li{
+        line-height: 50px;
+    }
+
+    &__nav-item:hover::before{
+        content:url(/block7/src/img/turquoise.svg);
+        position: fixed;
+        left: 0;
+    }
+
+    &__nav-item:hover{
+        color:$color-grey;
+        transform: scale(2);
+     }
+
+
+    &__footer{
+        position: fixed;
+        bottom:0;
+        padding-bottom: 30px;
+
+        @media(min-width: $screen-mobile) {
+            position: relative;
+        }
+    }
+
+    &__footer-button{
+        display: flex;
+        gap: 15px;
+    }
+
+    &__mail{
+        font-size: 16px;
+        color:$color-darkBlue;
+        font-family: TTLakes;
+        font-weight: 400;
+        margin-top: 16px;
+    }
+
+    &__number{
+        font-size: 20px;
+        font-weight: 600;
+        font-family:TTLakes;
+        margin-top: 12px;
+    }
+
+    &__lang{
+        margin-top: 20px;
+    }
+
+    &__lang-btn{
+        border: none;
+        background-color:$background-white;
+        cursor: pointer;
+    }
+
+    &__lang-btn:hover{
+        color:$color-grey;
+
+    
+    }
+    
+
+    &__button--call{
+        background-image: url(/block7/src/img/phone.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    &__button--chat{
+        background-image: url(/block7/src/img/chat.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    &__button--profile{
+        background-image: url(/block7/src/img/profile.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}   
+
+
+.circle{
+    height: 40px;
+    min-width: 40px;
+    background-color:$color-pink;
+    border-radius: 20px;
+    border:none;
+}
+
+.circle:hover{
+    opacity: 50%;
+    transition: 0.5s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.left-aside--open{
+    transform: translate(0);
+    transition: all 0.5s ease-in;
+    box-shadow: -10px 0 50px 0;  
+}
+
+a{
+    text-decoration: none;
+    color:$color-darkBlue;
+}

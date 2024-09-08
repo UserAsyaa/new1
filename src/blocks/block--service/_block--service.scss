@@ -1,0 +1,210 @@
+.main__services {
+	background-color:$background-lightGray;
+}
+
+.header_nav {
+	display: flex;
+	align-items: center;
+	padding: 17px;
+		@media(min-width:$screen-desktop){
+			display: none;
+		}
+
+	li {
+		margin-left: 16px;
+	}
+}
+
+.burger_button {
+	min-width: 40px;
+	margin-right: 17px;
+	background-image: url(/block7/src/img/burger.svg);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+
+.divider1 {
+	height: 32px;
+	width: 2px;
+}
+.divider2 {
+	height: 32px;
+	width: 2px;
+	margin-top: 5px;
+}
+
+.phone_button {
+	background-image: url(/block7/src/img/phone.svg);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.chat_button {
+	background-image: url(/block7/src/img/chat.svg);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.profile_button {
+	background-image: url(/block7/src/img/profile.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.repair_button {
+	background-image: url(/block7/src/img/repair.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.checkstatus_button {
+	background-image: url(/block7/src/img/checkstatus.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.header_right {
+	display: flex;
+
+		@media(min-width: $screen-mobile){
+			margin-left: auto;
+		}
+		@media(min-width: $screen-tablet){
+			margin:0;
+		}
+}
+
+.header_center{
+	@media(min-width:$screen-mobile){
+		display: none;
+	}
+
+	@media(min-width: $screen-tablet){
+		display: flex;
+        margin-left: auto;
+        align-items: center;
+       
+	}
+}
+
+.second_paragraph{
+	@media(min-width:$screen-mobile){
+		display: none;
+	}
+
+	@media(min-width: $screen-tablet){
+		display: block;
+	}
+}
+
+.work_mode{
+	@media(min-width:$screen-mobile){
+		width: 100%;
+        margin-top: 14px;
+        margin-bottom:14px;
+	}
+
+	@media(min-width: $screen-tablet){
+		width: 50%;
+	}
+}
+
+.repair_button{
+	@media(min-width:$screen-mobile){
+		display:block;
+	}
+}
+
+.scroll_elements {
+	display: flex;
+	width: 100%;
+	overflow: auto;
+	li {
+		display: flex;
+		align-items: center;
+		color: $color_2;
+		margin-right: 25px;
+		padding-top: 20px;
+		flex-shrink: 0;
+		height: 24px;
+		size: 16px;
+		letter-spacing: -0.2px;
+	}
+}
+li {
+	list-style-type: none;
+}
+.header_second {
+	display: flex;
+	align-items: center;
+	padding: 30px 0 20px 0;
+}
+.title {
+	margin-left: 20px;
+	color: $background-lightGray;
+	font-size: 28px;
+	font-weight: 700px;
+	line-height: 40px;
+	letter-spacing: -0.6px;
+}
+
+.group {
+	display: none;
+
+		@media(min-width:$screen-desktop){
+			display: flex;
+        	align-items: center;
+        	margin-left: auto;
+		}
+	p {
+		margin-left: 17px;
+	}
+	button {
+		margin-left: 9px;
+		margin-right: 17px;
+	}
+}
+
+p {
+	font-size: 14px;
+	color: $color_1;
+	letter-spacing: 0.2px;
+}
+.scroll {
+	overflow: auto;
+}
+
+.content {
+	padding: 20px;
+
+	@media(min-width: $screen-mobile){
+		display: block;
+	}
+	@media(min-width: $screen-tablet){
+		display: flex;
+	}
+}
+
+.scroll_element {
+	a {
+		text-decoration: none;
+		color: $color_2;
+		display: flex;
+		flex-wrap: nowrap;
+	}
+}
+
+.active {
+	border: 2px solid #B8FFEC;
+	background-color: $background-lightGray;
+	border-radius: 5px;
+	padding: 18px;
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+
+    &__button {
+	    outline: none;
+	    border: 0;
+	    background-color: $background-lightGray;
+	    padding: 10px 0 10px 0;
+    }
+}

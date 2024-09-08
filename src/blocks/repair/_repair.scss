@@ -1,0 +1,288 @@
+.repair{
+    &__header {
+        padding: 18px;
+        border-top: 1px solid #D9FFF5;
+        background-color:$background-white;
+    }
+
+    &__title {
+        font-size: 16px;
+        font-family: TTLakes;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+        color: $color_1;
+    }
+}
+
+
+.swiper-slide {
+	margin-top: 16px;
+	margin-left: 16px;
+	margin-bottom: 40px;
+	padding: 13px;
+	display: flex;
+	width: 220px;
+	justify-content: space-between;
+	align-items: center;
+	background-color:$background-white;
+	border: 1px solid #EAEAEA;
+	border-radius: 6px;
+
+
+
+    &__lenovo {
+        background-image: url(/block7/src/img/lenovo.jpg);
+        width: 120px;
+        height: 40px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left center;
+    }
+
+    &__samsung {
+        background-image: url(/block7/src/img/samsung.jpg);
+        width: 128px;
+        height: 40px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left center;
+    
+    }
+
+    &__apple {
+        background-image: url(/block7/src/img/apple.jpg);
+        width: 128px;
+        height: 40px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left center;
+    }  
+    
+    &__viewsonic {
+        background-image: url(/block7/src/img/viewsonic.jpg);
+        width: 128px;
+        height: 40px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left center;
+    }
+
+    &__bosch {
+        background-image: url(/block7/src/img/bosch.jpg);
+        width: 128px;
+        height: 40px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left center;
+    }
+
+    &__hp {
+        background-image: url(/block7/src/img/hp.jpg);
+        width: 128px;
+        height: 40px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left center;
+    }
+
+    &__acer {
+        background-image: url(/block7/src/img/acer.jpg);
+        width: 128px;
+        height: 40px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left center;
+    }
+
+    &__sony {
+        background-image: url(/block7/src/img/sony.jpg);
+        width: 128px;
+        height: 40px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left center;
+    }
+
+    &__go {
+        width: 40px;
+        height: 40px;
+        border: 2px solid #FF3E79;
+        border-radius: 50%;
+        background-image: url(/block7/src/img/go.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+}    
+.swiper-pagination-bullet{
+    background-color:$color-placeholder;
+    width: 10px;
+    height: 10px;
+}
+
+.swiper-wrapper {
+	padding-left: 10px;
+}
+
+
+.slider-menu{
+    @media(min-width:$screen-mobile) {
+        display: none;
+    }
+
+    @media(min-width:$screen-tablet) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        overflow: hidden;
+        max-height: 140px;
+        padding: 20px;
+        row-gap: 13px;
+        column-gap: 16px;
+    }
+
+    @media(min-width:$screen-desktop) {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        overflow: hidden;
+        max-height: 140px;
+        max-width: 1120px;
+        padding: 20px;
+        row-gap: 13px;
+        column-gap: 16px;
+    }
+
+    &__link {
+        display: flex;
+        max-width: 215px;
+        max-height: 40px;
+        padding: 16px;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $background-white;
+        border: 1px solid #EAEAEA;
+        border-radius: 6px;
+    }
+
+    &__lenovo {
+        background-image: url(/block7/src/img/lenovo.jpg);
+        max-width: 120px;
+        height: 40px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left center;
+    }
+
+    &__samsung {
+        background-image: url(/block7/src/img/samsung.jpg);
+        width: 120px;
+        height: 40px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left center;
+    }
+
+    &__apple {
+        background-image: url(/block7/src/img/apple.jpg);
+        width: 120px;
+        height: 40px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left center;
+    }
+
+    &__viewsonic {
+        background-image: url(/block7/src/img/viewsonic.jpg);
+        width: 120px;
+        height: 40px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left center;
+    }
+
+    &__bosch {
+        background-image: url(/block7/src/img/bosch.jpg);
+        width: 120px;
+        height: 40px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left center;
+    }
+
+    &__hp {
+        background-image: url(/block7/src/img/hp.jpg);
+        width: 128px;
+        height: 40px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left center;
+    }
+
+    &__acer {
+        background-image: url(/block7/src/img/acer.jpg);
+        width: 100px;
+        height: 30px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left center;
+    }
+
+    &__sony {
+        background-image: url(/block7/src/img/sony.jpg);
+        width: 120px;
+        height: 40px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left center;
+    }
+
+    &__go {
+        min-width: 40px;
+        min-height: 40px;
+        border: 2px solid $color-pink;
+        border-radius: 50%;
+        background-image: url(/block7/src/img/go.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+.show-more {
+
+    @media(min-width:$screen-mobile) {
+        display: none;
+    }
+
+    @media(min-width:$screen-tablet) {
+        display: block;
+    }
+
+    @media(min-width:$screen-desktop) {
+        display: block;
+    }
+
+	display: flex;
+	align-content: center;
+	margin-top: 20px;
+	margin-left: 20px;
+
+    &__btn {
+        outline: none;
+        border: 0;
+        background: transparent;
+    }
+}
+
+
+.myswiper {
+    @media(min-width:$screen-tablet) {
+        display: none;
+    }
+
+    @media(min-width:$screen-desktop) {
+        display: none;
+    }
+}
+
+
+
+

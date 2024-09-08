@@ -1,17 +1,51 @@
-$bgColor: #24292e;
-$text: #fff;
 
-@font-face {
-  font-family: 'Comic';
-  src: url('../fonts/comic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: italic;
-}
+@import "../blocks/block--service/block--service.scss";
+@import "../blocks/call-modal/call-modal.scss";
+@import "../blocks/feedback-modal/feedback-modal.scss";
+@import "../blocks/footer__body/footer__body.scss";
+@import "../blocks/left-aside/left-aside.scss";
+@import "../blocks/price/price.scss";
+@import "../blocks/repair/repair.scss";
+@import "../blocks/technique/technique.scss";
+@import "../common/variables.scss"
 
-body {
-  padding: 1rem;
-  margin: 0;
-  font-family: Comic, sans-serif;
-  background-color: $bgColor;
-  color: $text;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

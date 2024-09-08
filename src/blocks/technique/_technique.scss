@@ -1,0 +1,117 @@
+.technique {
+
+    &__header {
+	    background-color: $background-white;
+	    padding: 18px;
+    }
+
+    &__title {
+        font-size: 16px;
+        font-family: TTLakes-Regular;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+        color: $color-grey;
+    }
+
+    &__card {
+        position: relative;
+        width: 220px;
+        height: 160px;
+        padding: 10px;
+        border: 1px solid #EAEAEA;
+        background-color: $background-white;
+        border-radius: 6px;
+    }
+
+    &__company {
+        position: absolute;
+        transform: translate(5px,-60px);
+        font-family:TT Lakes;
+        font-weight: 600;
+        font-size: 16px;
+        color:$color-darkBlue;
+
+        @media(min-width:$screen-tablet){
+            transform: translate(16px, 16px);
+        }
+    }
+
+    &__go {
+        position: absolute;
+        bottom: 16px;
+        cursor: pointer;
+        right: 16px;
+        min-width: 40px;
+        min-height: 40px;
+        border: 2px solid $color-pink;
+        border-radius: 50%;
+        background-image: url(/block7/src/img/go.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    &__link {
+        position: relative;
+        width: 240px;
+        height: 160px;
+        padding: 10px;
+        background-color:$background-white;
+        border-radius: 6px;
+        border: 1px solid #EAEAEA;
+    }
+}
+
+
+.show-more {
+
+    &__technique {
+        display: flex;
+        margin-top: 20px;
+        margin-left: 20px;
+
+        @media(min-width:$screen-mobile){
+            display: none;
+        }
+
+        @media(min-width:$screen-tablet){
+            display: block;
+        }
+    }
+
+    &__technique-btn {
+        outline: none;
+        border: 0;
+        background: transparent;
+
+        @media(min-width:$screen-mobile){
+            display: none;
+        }
+    }
+}
+
+.technique-menu {
+    
+    @media(min-width:$screen-mobile) {
+        display: none;
+    }
+
+    @media(min-width:$screen-tablet) {
+        display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    overflow: hidden;
+    max-height: 170px;
+    max-width: 1120px;
+    padding: 20px;
+    row-gap: 13px;
+    column-gap: 16px;
+    }
+
+    @media(min-width:$screen-desktop) {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 20px;
+        row-gap: 13px;
+    }
+    
+}
+
