@@ -1,14 +1,12 @@
 .main__services {
-	background-color:$background-lightGray;
+	background-color:#F8F8F8;
 }
 
 .header_nav {
 	display: flex;
 	align-items: center;
 	padding: 17px;
-		@media(min-width:$screen-desktop){
-			display: none;
-		}
+		
 
 	li {
 		margin-left: 16px;
@@ -118,7 +116,7 @@
 	li {
 		display: flex;
 		align-items: center;
-		color: $color_2;
+		color: $color-grey;
 		margin-right: 25px;
 		padding-top: 20px;
 		flex-shrink: 0;
@@ -137,7 +135,7 @@ li {
 }
 .title {
 	margin-left: 20px;
-	color: $background-lightGray;
+	color: #F8F8F8;;
 	font-size: 28px;
 	font-weight: 700px;
 	line-height: 40px;
@@ -163,7 +161,7 @@ li {
 
 p {
 	font-size: 14px;
-	color: $color_1;
+	color:$color-darkBlue;
 	letter-spacing: 0.2px;
 }
 .scroll {
@@ -184,7 +182,7 @@ p {
 .scroll_element {
 	a {
 		text-decoration: none;
-		color: $color_2;
+		color:$color-grey;
 		display: flex;
 		flex-wrap: nowrap;
 	}
@@ -192,7 +190,7 @@ p {
 
 .active {
 	border: 2px solid #B8FFEC;
-	background-color: $background-lightGray;
+	background-color: #F8F8F8;;
 	border-radius: 5px;
 	padding: 18px;
 }
@@ -204,7 +202,7 @@ p {
     &__button {
 	    outline: none;
 	    border: 0;
-	    background-color: $background-lightGray;
+	    background-color: #F8F8F8;;
 	    padding: 10px 0 10px 0;
     }
 }
