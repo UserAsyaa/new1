@@ -30,7 +30,7 @@
 
         &__button-close {
             margin: 20px 0 0 20px;
-            background-image: url(/block7/src/img/icon.png);
+            background-image: url();
             background-repeat: no-repeat;
             background-position: center;
 
@@ -49,7 +49,7 @@
         } 
             
          &__line {
-             background-image: url(/block7/src/img/turquoise.svg);
+             background-image: url();
              background-repeat: no-repeat;
             width: 3px;
             height: 40px;
@@ -111,7 +111,7 @@
             border-radius: 50px;
             text-align: center;
             background-color:$color-pink;
-            background-image: url(/block7/src/img/send.svg);
+            background-image: url();
             background-repeat: no-repeat;
             background-position: 115px center;
             color:$background-white;
