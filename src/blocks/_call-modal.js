@@ -1,13 +1,13 @@
 const openCallButton = document.querySelector(".left-aside__button--call");   
 const callModal = document.querySelector(".call-modal");                     
 const closeCallButton = document.querySelector(".call-modal__button-close");   
-const mainContent = document.querySelector('.main__services');  
+const mainContent = document.querySelector('.block--big');  
                              
 
 openCallButton.addEventListener("click", function(evt){                    
     evt.preventDefault();
     callModal.classList.toggle("call-modal--open"); 
-    mainContent.classList.toggle("call-blur");
+    mainContent.classList.add("call-blur");
                         
 });
 

@@ -7,8 +7,8 @@
 
     &__title {
         font-size: 16px;
-        font-family: TTLakes;
         line-height: 24px;
+        font-weight: 400;
         letter-spacing: -0.2px;
         color: $color-placeholder;
     }
@@ -31,7 +31,7 @@
 
 
     &__lenovo {
-        background-image: url();
+        background-image: url("../img/lenovo.jpg");
         width: 120px;
         height: 40px;
         background-repeat: no-repeat;
@@ -40,7 +40,7 @@
     }
 
     &__samsung {
-        background-image: url();
+        background-image: url("../img/samsung.jpg");
         width: 128px;
         height: 40px;
         background-repeat: no-repeat;
@@ -50,7 +50,7 @@
     }
 
     &__apple {
-        background-image: url();
+        background-image: url("../img/apple.jpg");
         width: 128px;
         height: 40px;
         background-repeat: no-repeat;
@@ -59,7 +59,7 @@
     }  
     
     &__viewsonic {
-        background-image: url();
+        background-image: url("../img/viewsonic.jpg");
         width: 128px;
         height: 40px;
         background-repeat: no-repeat;
@@ -68,7 +68,7 @@
     }
 
     &__bosch {
-        background-image: url();
+        background-image: url("../img/bosch.jpg");
         width: 128px;
         height: 40px;
         background-repeat: no-repeat;
@@ -77,7 +77,7 @@
     }
 
     &__hp {
-        background-image: url();
+        background-image: url("../img/hp.jpg");
         width: 128px;
         height: 40px;
         background-repeat: no-repeat;
@@ -86,7 +86,7 @@
     }
 
     &__acer {
-        background-image: url();
+        background-image: url("../img/acer.jpg");
         width: 128px;
         height: 40px;
         background-repeat: no-repeat;
@@ -95,7 +95,7 @@
     }
 
     &__sony {
-        background-image: url();
+        background-image: url("../img/sony.jpg");
         width: 128px;
         height: 40px;
         background-repeat: no-repeat;
@@ -108,7 +108,7 @@
         height: 40px;
         border: 2px solid #FF3E79;
         border-radius: 50%;
-        background-image: url();
+        background-image: url("../img/go.jpg");
         background-repeat: no-repeat;
         background-position: center;
     }
@@ -164,8 +164,8 @@
     }
 
     &__lenovo {
-        background-image: url();
-        max-width: 120px;
+        background-image: url("../img/lenovo.jpg");
+        width: 120px;
         height: 40px;
         background-repeat: no-repeat;
         background-size: contain;
@@ -173,7 +173,7 @@
     }
 
     &__samsung {
-        background-image: url();
+        background-image: url("../img/samsung.jpg");
         width: 120px;
         height: 40px;
         background-repeat: no-repeat;
@@ -182,7 +182,7 @@
     }
 
     &__apple {
-        background-image: url();
+        background-image: url("../img/apple.jpg");
         width: 120px;
         height: 40px;
         background-repeat: no-repeat;
@@ -191,7 +191,7 @@
     }
 
     &__viewsonic {
-        background-image: url();
+        background-image: url("../img/viewsonic.jpg");
         width: 120px;
         height: 40px;
         background-repeat: no-repeat;
@@ -200,7 +200,7 @@
     }
 
     &__bosch {
-        background-image: url();
+        background-image: url("../img/bosch.jpg");
         width: 120px;
         height: 40px;
         background-repeat: no-repeat;
@@ -209,7 +209,7 @@
     }
 
     &__hp {
-        background-image: url();
+        background-image: url("../img/hp.jpg");
         width: 128px;
         height: 40px;
         background-repeat: no-repeat;
@@ -218,7 +218,7 @@
     }
 
     &__acer {
-        background-image: url();
+        background-image: url("../img/acer.jpg");
         width: 100px;
         height: 30px;
         background-repeat: no-repeat;
@@ -227,7 +227,7 @@
     }
 
     &__sony {
-        background-image: url();
+        background-image: url("../img/sony.jpg");
         width: 120px;
         height: 40px;
         background-repeat: no-repeat;
@@ -240,7 +240,7 @@
         min-height: 40px;
         border: 2px solid $color-pink;
         border-radius: 50%;
-        background-image: url();
+        background-image: url("../img/go.jpg");
         background-repeat: no-repeat;
         background-position: center;
     }

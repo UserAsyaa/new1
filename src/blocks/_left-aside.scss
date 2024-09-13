@@ -25,7 +25,7 @@
     }
 
     &__burger-button{
-        background-image: url(/block7/src/img/icon.png);
+        background-image: url("../img/burger.svg");
         background-repeat: no-repeat;
         background-position: center;
         margin-right: 20px;
@@ -36,7 +36,7 @@
     }
 
     &__search-button{
-        background-image: url(/block7/src/img/search.png);
+        background-image: url("../img/search.png");
         background-repeat: no-repeat;
         background-position: center;
     }
@@ -61,7 +61,7 @@
     }
 
     &__nav-item:hover::before{
-        content:url(/block7/src/img/turquoise.svg);
+        content:url("../img/turquoise.svg");
         position: fixed;
         left: 0;
     }
@@ -76,8 +76,10 @@
         position: fixed;
         bottom:0;
         padding-bottom: 30px;
+        margin-right: 0;
 
         @media(min-width: $screen-mobile) {
+            margin-left: 30px;
             position: relative;
         }
     }
@@ -90,7 +92,6 @@
     &__mail{
         font-size: 16px;
         color:$color-darkBlue;
-        font-family: TTLakes;
         font-weight: 400;
         margin-top: 16px;
     }
@@ -98,7 +99,6 @@
     &__number{
         font-size: 20px;
         font-weight: 600;
-        font-family:TTLakes;
         margin-top: 12px;
     }
 
@@ -120,19 +120,19 @@
     
 
     &__button--call{
-        background-image: url(/block7/src/img/phone.svg);
+        background-image: url("../img/phone.svg");
         background-position: center;
         background-repeat: no-repeat;
     }
 
     &__button--chat{
-        background-image: url(/block7/src/img/chat.svg);
+        background-image: url("../img/chat.svg");
         background-position: center;
         background-repeat: no-repeat;
     }
 
     &__button--profile{
-        background-image: url(/block7/src/img/profile.svg);
+        background-image: url("../img/profile.svg");
         background-position: center;
         background-repeat: no-repeat;
     }

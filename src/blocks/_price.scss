@@ -7,19 +7,17 @@
 
     &__title{
         font-size: 16px;
-        font-family: TTLakes-Regular;
         line-height: 24px;
+        font-weight: 400;
         letter-spacing: -0.2px;
-        color:$color-grey;
+        color:$color-placeholder;
 
         @media(min-width: $screen-tablet) {
                 display: flex;
                 justify-content: space-between;
                 margin-left: 10px;
-                font-family: TTLakes-Regular;
                 color:$color-grey;
                 font-size: 14px;
-                font-weight: 600;
             }
     }
     
@@ -51,7 +49,7 @@
     }
 
     &__notes--img{
-        background-image: url(/block7/src/img/more.svg);
+        background-image: url("../img/send-pink.jpg");
         height: 24px;
         width: 24px;
     }
@@ -162,9 +160,16 @@
         color: $background-white;
         border-radius: 16px;
         background-color:$color-pink;
-        background-image: url(/block7/src/img/send.svg);
+        background-image: url("../img/send.svg");
         background-repeat: no-repeat;
         background-position: 100px;
+    }
+
+
+    &__btn--order{
+        @media(min-width:$screen-tablet){
+            position: static;
+        }
     }
 
     &__service-value{
@@ -176,7 +181,7 @@
         margin:0;
     }
 
-    &____btn--tablet{
+    &___btn--tablet{
         @media(min-width:$screen-tablet) {
             position: static;
         }

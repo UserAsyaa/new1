@@ -1,5 +1,9 @@
 body {
-	display: flex;
+	font-family: TT Lakes;
+	@media(min-width:$screen-tablet) {
+		display: flex;
+	}
+	
 }
 
 
@@ -23,7 +27,7 @@ body {
 .burger_button {
 	min-width: 40px;
 	margin-right: 17px;
-	background-image: url() ;
+	background-image: url("../img/burger.svg");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
@@ -41,28 +45,28 @@ body {
 }
 
 .phone_button {
-	background-image: url("");
+	background-image: url("../img/phone.svg");
 
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 .chat_button {
-	background-image: url();
+	background-image: url("../img/chat.svg");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 .profile_button {
-	background-image: url();
+	background-image: url("../img/profile.svg");
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .repair_button {
-	background-image: url();
+	background-image: url("../img/repair.svg");
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .checkstatus_button {
-	background-image: url();
+	background-image: url("../img/checkstatus.svg");
 	background-position: center;
 	background-repeat: no-repeat;
 }
@@ -145,7 +149,6 @@ li {
 .title {
 	margin-left: 20px;
 	font-size: 28px;
-	font-weight: 600px;
 	line-height: 40px;
 	letter-spacing: -0.6px;
 }
