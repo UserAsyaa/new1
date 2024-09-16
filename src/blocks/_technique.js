@@ -9,7 +9,7 @@ let showMoreBtn2 = document.querySelector('.show-more__technique-btn')
                 showMoreBtn2.textContent = 'Скрыть'
             } else {
                 techniqueMenu.style.maxHeight = '170px'                   
-                showMoreImg.style.transform = 'rotate(0deg)'            
+                showMoreImg2.style.transform = 'rotate(0deg)'            
                 showMoreBtn2.textContent = 'Показать все'                
                 }
     });

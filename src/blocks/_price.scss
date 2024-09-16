@@ -23,7 +23,6 @@
     
 
     &__service{
-        font-family: TT Lakes;
         font-size: 14px;
         font-weight: 700;
         line-height: 16px;
@@ -73,7 +72,6 @@
         border-bottom: 1px solid #EAEAEA ;
         padding: 24px 0px;
         margin: 0 16px;
-        font-family: TTLakes-Regular;
         font-size: 16px;
         line-height: 18px;
         }
@@ -150,6 +148,7 @@
     &__btn--order{
         position: absolute;
         text-transform: uppercase;
+        font-family: TT Lakes;
         font-weight: 600;
         bottom: 20px;
         right: 20px;
@@ -174,7 +173,6 @@
 
     &__service-value{
         position: relative;
-        font-family: TT Lakes;
         font-size: 16px;
         font-weight: 700;
         color:$color-darkBlue;

@@ -78,6 +78,7 @@
             color: $color-placeholder;
             transform: translateX(10px);
         }
+    }    
 
        &__personal-data {
             margin-top: 20px;
@@ -85,9 +86,9 @@
             line-height: 14px;
             letter-spacing: 0px;
             color: $color-grey;
-            a {
+            a{
                 cursor: pointer;
-                color:$color-pink;
+                color: $color-pink;
             }
         }
 
@@ -107,7 +108,7 @@
             font-size: 12px;
             cursor: pointer;
         }
-    }
+    
 }
 
 

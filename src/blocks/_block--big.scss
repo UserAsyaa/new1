@@ -1,7 +1,8 @@
 .block--big {
+    background-color:$background-grey;
+    
     @media(min-width: $screen-desktop){
     display: block;
-    background-color:$background-grey;
 
     }
 }

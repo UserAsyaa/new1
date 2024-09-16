@@ -131,7 +131,6 @@ body {
 		align-items: center;
 		color: $color-grey;
 		margin-right: 25px;
-		padding-top: 20px;
 		flex-shrink: 0;
 		height: 24px;
 		size: 16px;
@@ -210,9 +209,9 @@ p {
 
 .active {
 	border: 2px solid #B8FFEC;
-	background-color: #F8F8F8;;
+	background-color: $background-white;
 	border-radius: 5px;
-	padding: 18px;
+	padding:0 18px;
 }
 
 .footer {
