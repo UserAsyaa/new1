@@ -53,6 +53,7 @@
 
     &__nav ul{
         list-style: none;
+        padding: 0;
     }
     
 
@@ -76,10 +77,10 @@
         position: fixed;
         bottom:0;
         padding-bottom: 30px;
-        margin-right: 0;
+        
 
         @media(min-width: $screen-mobile) {
-            margin-left: 30px;
+            
             position: relative;
         }
     }
